@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   
-  get 'post/:id', to: 'post#show'
+  get 'posts/:id', to: 'posts#show'
   
   
   # The priority is based upon order of creation: first created -> highest priority.
